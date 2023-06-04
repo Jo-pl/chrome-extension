@@ -1,0 +1,72 @@
+:root{
+    --green:#214E34;
+    --dark:#101820FF;
+    --light:aliceblue;
+}
+
+body{
+    background-color: black;
+    color:var(--light);
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: system-ui, -apple-system;
+}
+
+.take-break{
+    width:150px;
+    height:40px;
+    border:2px;
+    border-radius:10px;
+    font-size: 1.3em;
+}
+
+.take-break:hover{
+    animation: hover-button 1s forwards;
+    cursor: pointer;
+}
+
+@keyframes hover-button {
+    0%   {color:var(--light)}
+    100% {color:var(--dark);}
+  }
+
+.total-container{
+    width:200px;
+    height:250px;
+    flex-direction: column;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:10px;
+}
+
+
+.break-text-container{
+    padding:10px;
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.first-line{
+    padding-bottom:10px;
+    font-size: 2em;
+}
+
+.second-line{
+    padding-bottom:10px; 
+    font-size: 1.5em;
+    text-decoration:underline;
+}
+
+.third-line{
+    padding-bottom:10px; 
+    font-size: 1.5em;
+}
+
+.water-bottle{
+    padding-left:10px;
+}

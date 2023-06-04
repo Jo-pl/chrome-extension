@@ -4,7 +4,6 @@
     "description": "Amazing pet extension for your browser",
     "version": "1.0",
     "action": {
-      "default_popup": "index.html",
-      "default_icon": "hello_extensions.jpg"
+      "default_popup": "index.html"
     }
   }
